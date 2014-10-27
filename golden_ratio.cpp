@@ -6,8 +6,20 @@ golden ratio
 #include "calcgr.h"
 #include "gr.h"
 
-/* implementation of the function defined in file 'calcgr.h' */
+/* Fucntion that reads variables from a file*/
+void readFromFile(int &a, &b, char fileName[]){
+	FILE *file;
+	file = fopen(fileName, "rt");
+	if (fp == NULL){
+		perror("Error while opening the file.\n");
+		exit(EXIT_FAILURE);
+	}
+	fscanf(file, "%d", &a);
+	fscanf(file,"%d", &b);
+	fclose(file);
+} 
 
+/*Fucntion that computes the ration number with N precision*/
 double calcgr(int n) {
  double v = 1.618033988749L;
  return v;
@@ -32,3 +44,4 @@ int main() {
 
 	return 0;
 }
+

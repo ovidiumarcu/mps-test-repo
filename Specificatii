@@ -1,0 +1,20 @@
+
+	Specificatii
+
+Limbajul ales:
+	In implementarea problemei, am ales sa folosim limbajul C, deoarece
+este un limbaj comun tuturor membrilor echipei, in care acestia se simt
+destul de comfortabil sa lucreze.
+
+In ce consta implementarea:
+	Implementarea presupune citirea a doua numere, calcularea sumei 
+acestora si impartirea lor la cel mai mare numar dintre acestea.
+
+Biblioteci folosite:
+	S-au folosit bibliotecile standard ale limbajului C: "stdio".
+
+Coding style-ul folosit:
+	Drept coding style, am ales sa folosim regulile standard corespunzatoare
+"Linux coding style". De exemplu, spatiul de indentare cu TAB de 4 spatii.
+
+	

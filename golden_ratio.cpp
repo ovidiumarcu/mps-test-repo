@@ -3,8 +3,10 @@ mosix
 golden ratio
 */
 #include <stdio.h>
+#include "calcgr.h"
 #include "gr.h"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 void readFromFile(int &a, &b, char fileName[]){
 	FILE *file;
@@ -18,6 +20,13 @@ void readFromFile(int &a, &b, char fileName[]){
 	fclose(file);
 } 
 =======
+=======
+double calcgr(int n) {
+ double v = 1.618033988749L;
+ return v;
+}
+
+>>>>>>> 45dfcf7b52ce0f553788a45e4b52e10551bd2fa1
 int main() {
 
 	int precision;
